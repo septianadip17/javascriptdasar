@@ -9,3 +9,19 @@
  * 2. || logical or (atau)
  * 3. ! logical not (bukan)
  */
+
+if (true) {
+    console.log('print 1');
+}
+
+if (!true) {
+    console.log('print 2');
+}
+
+if (false) {
+    console.log('print 3');
+}
+
+if (!false) {
+    console.log('print 4');
+}

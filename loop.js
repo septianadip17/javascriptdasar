@@ -1,5 +1,5 @@
 /**
- * looping adalah perulangan
+ * looping adalah perulangan1
  */
 
 /** 
@@ -22,16 +22,26 @@ async function demo() {
 
 demo(); */
 
+/*
+
+*+*+*
+*+*+
+*+*
+*+
+*
+
+*/
+
 const prompt = require('prompt-sync')();
 max = prompt('Masukkan angka yang kamu inginkan: ');
 
-// for (i = 1; i <= max ; i++) {
-//     console.log(i)
-// }
-
-for (i = 1; i <= max ; i++) {
-    if (i % 3 == 0) {
-    console.log(i)
+for (i = 1; i <= max; i++){
+    for (j = max; j >= i; j--){
+        if (j % 2) {
+            process.stdout.write('*')
+        } else {
+            process.stdout.write('+');
+        }
     }
+    console.log()
 }
-
