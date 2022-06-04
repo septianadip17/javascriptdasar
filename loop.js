@@ -24,24 +24,51 @@ demo(); */
 
 /*
 
-*+*+*
-*+*+
-*+*
-*+
-*
+@@@@@@@
+@*    @
+@**   @
+@***  @
+@**** @
+@@@@@@@
+
+*     *
+ *   *
+  * *
+   *
+  * *
+ *   *   
+*     *
+
+if (1 == 1) {
+    console.log(a)
+} else if (2 == 2) {
+    console.log(b)
+}
+
+if (1 == 1) {
+    console.log(a)
+}
+
+if (2 == 2) {
+    console.log(b)
+}
 
 */
 
-const prompt = require('prompt-sync')();
-max = prompt('Masukkan angka yang kamu inginkan: ');
+// const prompt = require('prompt-sync')();
+// max = prompt('Masukkan angka yang kamu inginkan: ');
 
-for (i = 1; i <= max; i++){
-    for (j = max; j >= i; j--){
-        if (j % 2) {
+
+
+for (i = 1; i <= 6; i++){
+    for (j = 1; j <= i; j++){
+        if (j == 1){
             process.stdout.write('*')
-        } else {
-            process.stdout.write('+');
+        }else if (i == 6) {
+            process.stdout.write('*')
+        }else {
+            process.stdout.write(' ')
         }
     }
-    console.log()
+    console.log();
 }

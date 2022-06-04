@@ -200,3 +200,14 @@ for (i = 1; i <= max; i++) {
     }
     console.log() // digunakan untuk print sesuatu, setelah melakukan print akan membuat barisan baru (new line / enter)
 }
+
+for (i = 1; i <= 6; i++){
+       for (j = 1; j <= i; j++){
+           if (j == 1 || j == i ){
+               process.stdout.write('*')
+           } else {
+               process.stdout.write(' ')
+           }
+       }
+       console.log();
+}
