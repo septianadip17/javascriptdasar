@@ -53,8 +53,8 @@
  * 1
  */
 
-//  const prompt = require('prompt-sync')();
-//  max = prompt('Masukkan angka yang kamu inginkan: ');
+// const prompt = require('prompt-sync')();
+// max = prompt('Masukkan angka yang kamu inginkan: ');
 
 //  // ketika i = 0, maka loop berhenti
 //  for (i = max; i >= 1 ; i--) { // i-- ini bertugas untuk mengurangi value dari i disetiap satu looping selesai
@@ -85,13 +85,13 @@
  * 10
  */
 
-// for (i = 1; i <= max ; i++) {
-//     if (i >= 9) {
-//         console.log(i);
-//     } else if (i <= 6) {
-//         console.log(i);
-//     }
-// }
+for (i = 1; i <= max ; i++) {
+    if (i >= 9) {
+        console.log(i);
+    } else if (i <= 6) {
+        console.log(i);
+    }
+}
 
 // for (i = 1; i <= max ; i++) {
 //     if (i >= 9 || i <= 6) {
@@ -202,12 +202,12 @@ for (i = 1; i <= max; i++) {
 }
 
 for (i = 1; i <= 6; i++){
-       for (j = 1; j <= i; j++){
-           if (j == 1 || j == i ){
-               process.stdout.write('*')
-           } else {
-               process.stdout.write(' ')
-           }
-       }
-       console.log();
+    for (j = 1; j <= i; j++){
+        if (j == 1 || j == i ){
+            process.stdout.write('*')
+        } else {
+            process.stdout.write(' ')
+        }
+    }
+    console.log();
 }

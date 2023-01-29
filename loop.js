@@ -58,17 +58,17 @@ if (2 == 2) {
 // const prompt = require('prompt-sync')();
 // max = prompt('Masukkan angka yang kamu inginkan: ');
 
-
-
-for (i = 1; i <= 6; i++){
-    for (j = 1; j <= i; j++){
-        if (j == 1){
-            process.stdout.write('*')
-        }else if (i == 6) {
-            process.stdout.write('*')
-        }else {
-            process.stdout.write(' ')
-        }
-    }
-    console.log();
-}
+// for (i = 1; i <= max; i++) {
+//     for (j = 1; j <= max; j++) {
+//         console.log((max + 1 - i))
+//         return;
+//         // if (j == i) {
+//         //     process.stdout.write(j.toString())
+//         // } else if (j == (max + 1 - i)) {
+//         //     process.stdout.write(j.toString())
+//         // } else {
+//         //     process.stdout.write(' ')
+//         // }
+//     }
+//     console.log()
+// }
