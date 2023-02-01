@@ -1,7 +1,11 @@
 const prompt = require('prompt-sync')();
 console.log(" -=SELAMAT DATANG DI APLIKASI PENJUALAN =-");
 console.log("Berikut ini list daftar barang yang kita punya: ");
-console.log("1. Beras - Rp. 24000 2. Gula - Rp. 17000 3. Garam - Rp. 7000 4. Cabai - Rp. 15000 5. Bumbu Dapur - Rp. 2500");
+console.log("1. Beras - Rp. 24000");
+console.log("2. Gula - Rp. 17000")
+console.log("3. Garam - Rp. 7000")
+console.log("4. Cabai - Rp. 15000")
+console.log("5. Bumbu Dapur - Rp. 2500")
 console.log("Silakan masukkan nomor list daftar barang yang ingin anda beli: ")
 barangToko = prompt('> ')
 if (barangToko == "1"){
