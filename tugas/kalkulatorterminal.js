@@ -5,7 +5,7 @@ operator = prompt(' ');
 if (operator == "+" || operator == "-" || operator == "/" || operator == "*") {
     console.log("sip.")
 } else {
-    console.log('Masukkin yang bener tolol')
+    console.log('Masukkan operator yang benar:)')
 }
 console.log(`Ini adalah operator yang kamu pilih "${operator}"`);
 console.log("lanjut, masukkan angka pertamamu: ")
@@ -21,6 +21,6 @@ if (operator == "+") {
 } else if (operator == "*") {
     result = parseInt(firstNumber) * parseInt(secondNumber)
 } else {
-    console.log("kaga jelas milih lu")
+    console.log("ayo ulang!")
 }
 console.log(result)
