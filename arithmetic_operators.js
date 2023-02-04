@@ -10,16 +10,7 @@
 const prompt = require('prompt-sync')();
 console.log('Ini adalah aplikasi penjumlahan');
 console.log('Silahkan masukkan angka pertama mu:');
-firstNumber = prompt('> ');
-console.log("Ini adalah tipe data dari firstNumber " + typeof firstNumber);
-console.log('Silahkan masukkan angka kedua mu:');
-secondNumber = prompt('> ');
-console.log("Ini adalah tipe data dari secondNumber " + typeof secondNumber);
-addition = parseInt(firstNumber) + parseInt(secondNumber);
-console.log("Hasil penjumlahan adalah " + addition);
-
-console.log("==================");
-
+firstNumber = prompt('> '); console.log("Ini adalah tipe data dari firstNumber " + typeof firstNumber); console.log('Silahkan masukkan angka kedua mu:'); secondNumber = prompt('> '); console.log("Ini adalah tipe data dari secondNumber " + typeof secondNumber); addition = parseInt(firstNumber) + parseInt(secondNumber); console.log("Hasil penjumlahan adalah " + addition); console.log("==================");
 // example of substraction
 console.log('Ini adalah aplikasi pengurangan');
 console.log('Silahkan masukkan angka pertama mu:');
