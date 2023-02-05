@@ -19,7 +19,6 @@ while (buyAgain) {
     jumlahBeli = prompt("> ")
 
     var barang, harga
-
     if (barangToko == "beras") {
         barang = "Beras"
         harga = 24000
@@ -53,7 +52,7 @@ while (buyAgain) {
     }
 
     console.log(`Barang yang anda beli adalah ${barang} sebanyak ${jumlahBeli} dengan harga ${harga * parseInt(jumlahBeli)}`)
-    console.log("Apakah anda mau belanja lagi? (Y/n)");
+    console.log("Apakah kamu mau belanja lagi? (Y/n)");
     beliLagi = prompt("> ")
 
 
