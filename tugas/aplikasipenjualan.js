@@ -11,37 +11,37 @@ console.log("Sayur Campur - Rp. 10000 ")
 console.log("Jagung - Rp. 5000")
 console.log("Beef - 99000")
 console.log("Silakan masukkan barang yang ingin anda beli: ")
-toLowerCase(barangToko) = prompt("> ")
+barangToko = prompt("> ").toLowerCase()
 console.log("Berapa banyak? ")
 jumlahBeli = prompt("> ")
 
 var barang, harga
 
-if (barangToko == "Beras"){
+if (barangToko == "beras"){
     barang = "Beras"
     harga = 24000
-}else if (barangToko == "Gula"){
+}else if (barangToko == "gula"){
     barang = "Gula"
     harga = 17000
-}else if (barangToko == "Garam"){
+}else if (barangToko == "garam"){
     barang = "Garam"
     harga = 7000
-}else if (barangToko == "Cabai"){
+}else if (barangToko == "cabai"){
     barang = "Bumbu Dapur"
     harga = 2500
-}else if (barangToko == "Toge"){
+}else if (barangToko == "toge"){
     barang = "Toge"
     harga = 4000
-}else if (barangToko == "Ayam"){
+}else if (barangToko == "ayam"){
     barang = "Ayam"
     harga = 50000
-}else if (barangToko == "Sayur Campur"){
+}else if (barangToko == "sayur campur"){
     barang = "Sayur Campur"
     harga = 10000
-}else if (barangToko == "Jagung"){
+}else if (barangToko == "jagung"){
     barang = "Jagung"
     harga = 5000
-}else if (barangToko == "Beef"){
+}else if (barangToko == "beef"){
     barang = "Beef"
     harga = 99000
 }else{
